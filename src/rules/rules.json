@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "scheme": "steam"
+        }
+      }
+    },
+    "condition": {
+      "urlFilter": "||store.steampowered.com",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]

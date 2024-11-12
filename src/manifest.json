@@ -1,0 +1,25 @@
+{
+  "name": "ITX Steam Link",
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "author": "Bryan Wood",
+  "description": "Open Steam links in Steam App",
+  "icons": {},
+  "action": {
+    "default_title": "ITX Steam Link"
+  },
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "homepage_url": "https://itanex.ninja",
+  "minimum_chrome_version": "96",
+  "offline_enabled": true,
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "short_name": "itx-steam-link"
+}
